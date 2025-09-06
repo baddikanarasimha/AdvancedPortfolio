@@ -1,5 +1,6 @@
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { useCounterAnimation } from "@/hooks/use-counter-animation";
+import profileImage from "@assets/1000053475[1]_1757183680909.jpg";
 
 export default function AboutSection() {
   useScrollReveal();
@@ -17,15 +18,20 @@ export default function AboutSection() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="reveal-animation">
-            {/* Professional photo placeholder */}
+            {/* Professional photo */}
             <div className="relative">
               <div 
-                className="w-full max-w-md mx-auto aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl overflow-hidden"
+                className="w-full max-w-md mx-auto aspect-square rounded-2xl overflow-hidden ring-2 ring-accent/30 shadow-2xl transform hover:scale-105 transition-all duration-300"
                 data-testid="img-professional"
               >
-                <div className="w-full h-full bg-muted animate-pulse"></div>
+                <img 
+                  src={profileImage} 
+                  alt="Narasimha Rao Baddika - Professional Portrait" 
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-accent rounded-full animate-pulse-slow"></div>
+              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-accent rounded-full animate-pulse-slow opacity-80"></div>
+              <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary rounded-full animate-float opacity-60"></div>
             </div>
           </div>
 

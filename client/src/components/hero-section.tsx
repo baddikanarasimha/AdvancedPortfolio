@@ -1,5 +1,6 @@
 import { useTypingEffect } from "@/hooks/use-typing-effect";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import profileImage from "@assets/1000053475[1]_1757183680909.jpg";
 
 export default function HeroSection() {
   const typingText = useTypingEffect("Java Full Stack Developer", 100, 2000);
@@ -11,11 +12,17 @@ export default function HeroSection() {
       
       <div className="container mx-auto px-6 text-center z-10 relative">
         <div className="animate-fade-in">
-          {/* Profile Image placeholder */}
+          {/* Profile Image */}
           <div 
-            className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-primary to-accent animate-pulse-slow"
+            className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden ring-4 ring-accent/50 shadow-2xl transform hover:scale-110 transition-all duration-300"
             data-testid="img-profile"
-          />
+          >
+            <img 
+              src={profileImage} 
+              alt="Narasimha Rao Baddika - Java Full Stack Developer" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-4 gradient-text animate-slide-up">
             Narasimha Rao

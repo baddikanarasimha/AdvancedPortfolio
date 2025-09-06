@@ -69,7 +69,7 @@ export default function HeroSection() {
               <div className="social-tooltip">GitHub Profile</div>
             </a>
             <a 
-              href="https://linkedin.com/in/narasimha-rao-baddika" 
+              href="https://www.linkedin.com/in/narasimha-rao-baddika-304a64289/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link social-link-linkedin"

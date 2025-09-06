@@ -105,8 +105,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">LinkedIn</h4>
-                  <a href="https://linkedin.com/in/narasimha-rao-baddika" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors duration-300">
-                    linkedin.com/in/narasimha-rao-baddika
+                  <a href="https://www.linkedin.com/in/narasimha-rao-baddika-304a64289/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                    linkedin.com/in/narasimha-rao-baddika-304a64289
                   </a>
                 </div>
               </div>

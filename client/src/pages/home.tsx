@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="social-tooltip">GitHub</div>
               </a>
               <a 
-                href="https://linkedin.com/in/narasimha-rao-baddika" 
+                href="https://www.linkedin.com/in/narasimha-rao-baddika-304a64289/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link social-link-linkedin"

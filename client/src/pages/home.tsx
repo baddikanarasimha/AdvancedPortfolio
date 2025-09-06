@@ -38,31 +38,37 @@ export default function Home() {
             <p className="text-muted-foreground mb-4">
               © 2024 Narasimha Rao Baddika. Designed & Developed with ❤️
             </p>
-            <div className="flex justify-center space-x-6">
+            <div className="social-links-container">
               <a 
                 href="https://github.com/baddikanarasimha" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125"
+                className="social-link social-link-github"
                 data-testid="link-github-footer"
               >
-                <i className="fab fa-github text-xl"></i>
+                <div className="pulse-ring"></div>
+                <i className="fab fa-github"></i>
+                <div className="social-tooltip">GitHub</div>
               </a>
               <a 
                 href="https://linkedin.com/in/narasimha-rao-baddika" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125"
+                className="social-link social-link-linkedin"
                 data-testid="link-linkedin-footer"
               >
-                <i className="fab fa-linkedin text-xl"></i>
+                <div className="pulse-ring"></div>
+                <i className="fab fa-linkedin"></i>
+                <div className="social-tooltip">LinkedIn</div>
               </a>
               <a 
                 href="mailto:narasimharajubaddika225@gmail.com" 
-                className="text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125"
+                className="social-link social-link-email"
                 data-testid="link-email-footer"
               >
-                <i className="fas fa-envelope text-xl"></i>
+                <div className="pulse-ring"></div>
+                <i className="fas fa-envelope"></i>
+                <div className="social-tooltip">Email</div>
               </a>
             </div>
           </div>

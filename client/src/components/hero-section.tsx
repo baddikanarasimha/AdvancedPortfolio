@@ -49,38 +49,46 @@ export default function HeroSection() {
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center space-x-6 mt-12 animate-slide-up" style={{animationDelay: '0.8s'}}>
+          <div className="social-links-container mt-12 animate-slide-up" style={{animationDelay: '0.8s'}}>
             <a 
               href="https://github.com/baddikanarasimha" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-2xl text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125 hover:-translate-y-2"
+              className="social-link social-link-github"
               data-testid="link-github"
             >
-              <i className="fab fa-github"></i>
+              <div className="pulse-ring"></div>
+              <i className="fab fa-github text-xl"></i>
+              <div className="social-tooltip">GitHub Profile</div>
             </a>
             <a 
               href="https://linkedin.com/in/narasimha-rao-baddika" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-2xl text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125 hover:-translate-y-2"
+              className="social-link social-link-linkedin"
               data-testid="link-linkedin"
             >
-              <i className="fab fa-linkedin"></i>
+              <div className="pulse-ring"></div>
+              <i className="fab fa-linkedin text-xl"></i>
+              <div className="social-tooltip">LinkedIn Profile</div>
             </a>
             <a 
               href="mailto:narasimharajubaddika225@gmail.com" 
-              className="text-2xl text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125 hover:-translate-y-2"
+              className="social-link social-link-email"
               data-testid="link-email"
             >
-              <i className="fas fa-envelope"></i>
+              <div className="pulse-ring"></div>
+              <i className="fas fa-envelope text-xl"></i>
+              <div className="social-tooltip">Send Email</div>
             </a>
             <a 
               href="tel:+917207369225" 
-              className="text-2xl text-muted-foreground hover:text-accent transition-all duration-300 transform hover:scale-125 hover:-translate-y-2"
+              className="social-link social-link-phone"
               data-testid="link-phone"
             >
-              <i className="fas fa-phone"></i>
+              <div className="pulse-ring"></div>
+              <i className="fas fa-phone text-xl"></i>
+              <div className="social-tooltip">Call Me</div>
             </a>
           </div>
         </div>

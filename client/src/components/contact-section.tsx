@@ -81,7 +81,9 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">Email</h4>
-                  <p className="text-muted-foreground">narasimharajubaddika225@gmail.com</p>
+                  <a href="mailto:narasimharajubaddika225@gmail.com" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                    narasimharajubaddika225@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -91,7 +93,9 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">Phone</h4>
-                  <p className="text-muted-foreground">+91-7207369225</p>
+                  <a href="tel:+917207369225" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                    +91-7207369225
+                  </a>
                 </div>
               </div>
 
@@ -101,7 +105,9 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">LinkedIn</h4>
-                  <p className="text-muted-foreground">linkedin.com/in/narasimha-rao-baddika</p>
+                  <a href="https://linkedin.com/in/narasimha-rao-baddika" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                    linkedin.com/in/narasimha-rao-baddika
+                  </a>
                 </div>
               </div>
 
@@ -111,7 +117,9 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold">GitHub</h4>
-                  <p className="text-muted-foreground">github.com/baddikanarasimha</p>
+                  <a href="https://github.com/baddikanarasimha" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                    github.com/baddikanarasimha
+                  </a>
                 </div>
               </div>
             </div>
